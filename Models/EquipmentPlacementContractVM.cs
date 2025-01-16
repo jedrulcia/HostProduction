@@ -3,8 +3,8 @@
 	public class EquipmentPlacementContractVM
 	{
 		public int? Id { get; set; }
-		public int ProductionFacilityId { get; set; }
-		public int ProcessEquipmentTypeId { get; set; }
+		public ProductionFacilityVM ProductionFacilityVM { get; set; }
+		public ProductionFacilityVM ProcessEquipmentTypeVM { get; set; }
 		public int EquipmentQuantity { get; set; }
 	}
 }

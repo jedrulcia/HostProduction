@@ -32,52 +32,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/EquipmentPlacementContracts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50UGxhY2VtZW50Q29udHJhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/EquipmentPlacementContracts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50UGxhY2VtZW50Q29udHJhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProcessEquipmentTypes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc0VxdWlwbWVudFR5cGVzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProcessEquipmentTypes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc0VxdWlwbWVudFR5cGVzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProcessEquipmentTypes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc0VxdWlwbWVudFR5cGVzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProcessEquipmentTypes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc0VxdWlwbWVudFR5cGVzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProcessEquipmentTypes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc0VxdWlwbWVudFR5cGVzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProductionFacilities/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvbkZhY2lsaXRpZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProductionFacilities/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvbkZhY2lsaXRpZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProductionFacilities/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvbkZhY2lsaXRpZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProductionFacilities/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvbkZhY2lsaXRpZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/ProductionFacilities/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvbkZhY2lsaXRpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jedrulcia/Desktop/Jedrzej/Programowanko/github/HostProduction/Views/Shared/Error.cshtml]

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\processequipmenttypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:processequipmenttypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\controllers\\equipmentplacementcontractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:controllers\\equipmentplacementcontractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\controllers\\productionfacilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:controllers\\productionfacilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\models\\equipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:models\\equipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,25 +47,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProcessEquipmentTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\ProcessEquipmentTypesController.cs",
-              "RelativeDocumentMoniker": "ProcessEquipmentTypesController.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\ProcessEquipmentTypesController.cs",
-              "RelativeToolTip": "ProcessEquipmentTypesController.cs",
+              "Title": "EquipmentPlacementContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EquipmentPlacementContractsController.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
+              "RelativeToolTip": "Controllers\\EquipmentPlacementContractsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T19:02:41.97Z",
+              "WhenOpened": "2025-01-16T20:29:27.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T20:26:04.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquipmentPlacementContractVM.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractVM.cs",
+              "RelativeDocumentMoniker": "Models\\EquipmentPlacementContractVM.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractVM.cs",
+              "RelativeToolTip": "Models\\EquipmentPlacementContractVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:19:59.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductionFacilitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\ProductionFacilitiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductionFacilitiesController.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\ProductionFacilitiesController.cs",
+              "RelativeToolTip": "Controllers\\ProductionFacilitiesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:58:00.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T18:34:06.524Z",
               "EditorCaption": ""

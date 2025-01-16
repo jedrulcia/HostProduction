@@ -11,6 +11,7 @@ namespace HostProduction.Configurations
 			CreateMap<ProductionFacility, ProductionFacilityVM>().ReverseMap();
 			CreateMap<ProcessEquipmentType, ProcessEquipmentTypeVM>().ReverseMap();
 			CreateMap<EquipmentPlacementContract, EquipmentPlacementContractVM>().ReverseMap();
+			CreateMap<EquipmentPlacementContract, CreateEquipmentPlacementContractVM>().ReverseMap();
 		}
 	}
 }

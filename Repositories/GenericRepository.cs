@@ -4,7 +4,7 @@ using HostProduction.Data;
 
 namespace HostProduction.Repositories
 {
-	public class GenericRepository<T> : IGenericRepository<T> where T : class
+	public class GenericRepository<T> where T : class
     {
         private readonly ApplicationDbContext context;
 
@@ -14,22 +14,15 @@ namespace HostProduction.Repositories
         }
 
 		// ADDS THE ENTITY TO THE DATABASE
-		public async Task<T> AddAsync(T entity)
-        {
-            await context.AddAsync(entity);
-            await context.SaveChangesAsync();
-            return entity;
-		}
-
-		// CHECKS IF THE ENTITY EXISTS IN THE DATABASE
-		public async Task<bool> Exists(int id)
+		protected async Task<T> AddAsync(T entity)
 		{
-			var entity = await GetAsync(id);
-			return entity != null;
+			await context.AddAsync(entity);
+			await context.SaveChangesAsync();
+			return entity;
 		}
 
 		// GETS THE ENTITY FROM THE DATABASE
-		public async Task<T> GetAsync(int? id)
+		protected async Task<T> GetAsync(int? id)
 		{
 			if (id == null)
 			{
@@ -39,24 +32,9 @@ namespace HostProduction.Repositories
 		}
 
 		// GETS ALL ENTITIES FROM THE DATABASE
-		public async Task<List<T>> GetAllAsync()
+		protected async Task<List<T>> GetAllAsync()
 		{
 			return await context.Set<T>().ToListAsync();
 		}
-
-		// UPDATES THE ENTITY IN THE DATABASE
-		public async Task UpdateAsync(T entity)
-		{
-			context.Update(entity);
-			await context.SaveChangesAsync();
-		}
-
-		// DELETES THE ENTITY FROM THE DATABASE
-		public async Task DeleteAsync(int id)
-        {
-            var entity = await context.Set<T>().FindAsync(id);
-            context.Set<T>().Remove(entity);
-            await context.SaveChangesAsync();
-        }
-    }
+	}
 }
