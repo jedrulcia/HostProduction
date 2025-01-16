@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\configurations\\entities\\productionfacilityseedconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:configurations\\entities\\productionfacilityseedconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,12 +27,12 @@
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:configurations\\entities\\processequipmenttypeseedconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\equipmentplacementcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\equipmentplacementcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T18:34:14.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:34:14.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:34:06.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:34:06.524Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Configurations\\Entities\\ProductionFacilitySeedConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:29:07.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:29:07.279Z"
             },
             {
               "$type": "Document",
@@ -105,12 +102,11 @@
               "RelativeToolTip": "Configurations\\Entities\\ProcessEquipmentTypeSeedConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:22:58.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:22:58.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -123,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EquipmentPlacementContract.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\EquipmentPlacementContract.cs",
               "RelativeDocumentMoniker": "Data\\EquipmentPlacementContract.cs",
@@ -131,12 +127,11 @@
               "RelativeToolTip": "Data\\EquipmentPlacementContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:12:48.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:12:48.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProcessEquipmentType.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ProcessEquipmentType.cs",
               "RelativeDocumentMoniker": "Data\\ProcessEquipmentType.cs",
@@ -144,12 +139,11 @@
               "RelativeToolTip": "Data\\ProcessEquipmentType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:11:55.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:11:55.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductionFacility.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ProductionFacility.cs",
               "RelativeDocumentMoniker": "Data\\ProductionFacility.cs",

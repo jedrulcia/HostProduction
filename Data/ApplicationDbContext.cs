@@ -30,6 +30,6 @@ namespace HostProduction.Data
 
 		public DbSet<ProductionFacility> ProductionFacilities { get; set; }
         public DbSet<ProcessEquipmentType> ProcessEquipmentTypes { get; set; }
-        public EquipmentPlacementContract EquipmentPlacementContracts { get; set; }
+        public DbSet<EquipmentPlacementContract> EquipmentPlacementContracts { get; set; }
     }
 }
