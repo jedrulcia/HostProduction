@@ -14,7 +14,7 @@ namespace HostProduction.Repositories
 			this.mapper = mapper;
 		}
 
-		public async Task<List<ProductionFacilityVM>> GetProductionFacilityIndexVMAsync()
+		public async Task<List<ProductionFacilityVM>> GetProductionFacilityVMsAsync()
 		{
 			return mapper.Map<List<ProductionFacilityVM>>(await GetAllAsync());
 		}

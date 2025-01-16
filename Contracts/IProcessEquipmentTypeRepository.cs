@@ -6,8 +6,7 @@ namespace HostProduction.Contracts
 {
 	public interface IProcessEquipmentTypeRepository
 	{
-		Task<List<ProcessEquipmentTypeVM>> GetProcessEquipmentTypeIndexVMAsync();
-
+		Task<List<ProcessEquipmentTypeVM>> GetProcessEquipmentTypeVMsAsync();
 		Task<ProcessEquipmentTypeVM> GetProcessEquipmentTypeVMAsync(int id);
 	}
 }

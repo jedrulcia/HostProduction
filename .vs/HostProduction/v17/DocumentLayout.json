@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\views\\equipmentplacementcontracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:views\\equipmentplacementcontracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\controllers\\equipmentplacementcontractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:controllers\\equipmentplacementcontractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\models\\createequipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:models\\createequipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\repositories\\equipmentplacementcontractsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:repositories\\equipmentplacementcontractsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\views\\equipmentplacementcontracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:views\\equipmentplacementcontracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\models\\equipmentplacementcontractcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:models\\equipmentplacementcontractcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateEquipmentPlacementContractVM.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\CreateEquipmentPlacementContractVM.cs",
-              "RelativeDocumentMoniker": "Models\\CreateEquipmentPlacementContractVM.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\CreateEquipmentPlacementContractVM.cs",
-              "RelativeToolTip": "Models\\CreateEquipmentPlacementContractVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T21:04:26.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\EquipmentPlacementContracts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\EquipmentPlacementContracts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\EquipmentPlacementContracts\\Index.cshtml",
-              "RelativeToolTip": "Views\\EquipmentPlacementContracts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T21:02:46.024Z",
+              "Title": "EquipmentPlacementContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EquipmentPlacementContractsController.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
+              "RelativeToolTip": "Controllers\\EquipmentPlacementContractsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:27:53.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\EquipmentPlacementContracts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\EquipmentPlacementContracts\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\EquipmentPlacementContracts\\Create.cshtml",
-              "RelativeToolTip": "Views\\EquipmentPlacementContracts\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T21:02:45.447Z",
+              "Title": "EquipmentPlacementContractCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractCreateVM.cs",
+              "RelativeDocumentMoniker": "Models\\EquipmentPlacementContractCreateVM.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractCreateVM.cs",
+              "RelativeToolTip": "Models\\EquipmentPlacementContractCreateVM.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:18:28.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EquipmentPlacementContractsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Repositories\\EquipmentPlacementContractsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EquipmentPlacementContractsRepository.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Repositories\\EquipmentPlacementContractsRepository.cs",
+              "RelativeToolTip": "Repositories\\EquipmentPlacementContractsRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwE4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:08:16.754Z",
               "EditorCaption": ""
             }
           ]

@@ -8,10 +8,12 @@ namespace HostProduction.Configurations
 	{
 		public MapperConfig()
 		{
-			CreateMap<ProductionFacility, ProductionFacilityVM>().ReverseMap();
+			CreateMap<ProductionFacility, ProductionFacilityVM>()
+			.ForMember(dest => dest.RemainingArea, opt => opt.MapFrom(src => src.StandardArea));
+			CreateMap<ProductionFacilityVM, ProductionFacility>();
 			CreateMap<ProcessEquipmentType, ProcessEquipmentTypeVM>().ReverseMap();
 			CreateMap<EquipmentPlacementContract, EquipmentPlacementContractVM>().ReverseMap();
-			CreateMap<EquipmentPlacementContract, CreateEquipmentPlacementContractVM>().ReverseMap();
+			CreateMap<EquipmentPlacementContract, EquipmentPlacementContractCreateVM>().ReverseMap();
 		}
 	}
 }

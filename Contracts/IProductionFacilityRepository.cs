@@ -6,7 +6,7 @@ namespace HostProduction.Contracts
 {
 	public interface IProductionFacilityRepository
 	{
-		Task<List<ProductionFacilityVM>> GetProductionFacilityIndexVMAsync();
+		Task<List<ProductionFacilityVM>> GetProductionFacilityVMsAsync();
 		Task<ProductionFacilityVM> GetProductionFacilityVMAsync(int id);
 	}
 }

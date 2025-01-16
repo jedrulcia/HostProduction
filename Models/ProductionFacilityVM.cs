@@ -7,5 +7,9 @@
 		public string Name { get; set; }
 		public decimal StandardArea { get; set; }
 		public decimal RemainingArea { get; set; }
+		public ProductionFacilityVM()
+		{
+			RemainingArea = StandardArea;
+		}
 	}
 }

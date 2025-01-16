@@ -13,7 +13,7 @@ namespace HostProduction.Repositories
 		{
 			this.mapper = mapper;
 		}
-		public async Task<List<ProcessEquipmentTypeVM>> GetProcessEquipmentTypeIndexVMAsync()
+		public async Task<List<ProcessEquipmentTypeVM>> GetProcessEquipmentTypeVMsAsync()
 		{
 			return mapper.Map<List<ProcessEquipmentTypeVM>>(await GetAllAsync());
 		}

@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:controllers\\equipmentplacementcontractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\controllers\\productionfacilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:controllers\\productionfacilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\repositories\\equipmentplacementcontractsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:repositories\\equipmentplacementcontractsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\models\\equipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:models\\equipmentplacementcontractvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\models\\equipmentplacementcontractcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:models\\equipmentplacementcontractcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,63 +42,37 @@
               "Title": "EquipmentPlacementContractsController.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EquipmentPlacementContractsController.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs",
-              "RelativeToolTip": "Controllers\\EquipmentPlacementContractsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\EquipmentPlacementContractsController.cs*",
+              "RelativeToolTip": "Controllers\\EquipmentPlacementContractsController.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:29:27.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T20:26:04.161Z",
+              "WhenOpened": "2025-01-16T22:27:53.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EquipmentPlacementContractVM.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractVM.cs",
-              "RelativeDocumentMoniker": "Models\\EquipmentPlacementContractVM.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractVM.cs",
-              "RelativeToolTip": "Models\\EquipmentPlacementContractVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Title": "EquipmentPlacementContractCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractCreateVM.cs",
+              "RelativeDocumentMoniker": "Models\\EquipmentPlacementContractCreateVM.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Models\\EquipmentPlacementContractCreateVM.cs",
+              "RelativeToolTip": "Models\\EquipmentPlacementContractCreateVM.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wBcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:19:59.933Z",
+              "WhenOpened": "2025-01-16T22:18:28.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductionFacilitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\ProductionFacilitiesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductionFacilitiesController.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Controllers\\ProductionFacilitiesController.cs",
-              "RelativeToolTip": "Controllers\\ProductionFacilitiesController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAEAAAAAAAAAA==",
+              "Title": "EquipmentPlacementContractsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Repositories\\EquipmentPlacementContractsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EquipmentPlacementContractsRepository.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Repositories\\EquipmentPlacementContractsRepository.cs",
+              "RelativeToolTip": "Repositories\\EquipmentPlacementContractsRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwE4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T19:58:00.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:34:06.524Z",
+              "WhenOpened": "2025-01-16T21:08:16.754Z",
               "EditorCaption": ""
             }
           ]

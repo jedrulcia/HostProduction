@@ -1,4 +1,4 @@
-﻿@model HostProduction.Data.EquipmentPlacementContract
+﻿@model HostProduction.Models.EquipmentPlacementContractCreateVM
 
 @{
     ViewData["Title"] = "Create";
@@ -21,13 +21,15 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ProductionFacilityId" class="control-label"></label>
-                <input asp-for="ProductionFacilityId" class="form-control" />
+                <strong><label asp-for="ProductionFacilityId" class="control-label"></label></strong>
+                <select asp-for="ProductionFacilityId" asp-items="@Model.AvailableProductionFacilities" class="form-select">
+                </select>
                 <span asp-validation-for="ProductionFacilityId" class="text-danger"></span>
-            </div>
+            </div>		
             <div class="form-group">
-                <label asp-for="ProcessEquipmentTypeId" class="control-label"></label>
-                <input asp-for="ProcessEquipmentTypeId" class="form-control" />
+                <strong><label asp-for="ProcessEquipmentTypeId" class="control-label"></label></strong>
+                <select asp-for="ProcessEquipmentTypeId" asp-items="@Model.AvailableProcessEquipmentTypes" class="form-select">
+                </select>
                 <span asp-validation-for="ProcessEquipmentTypeId" class="text-danger"></span>
             </div>
             <div class="form-group">
