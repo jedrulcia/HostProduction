@@ -16,11 +16,15 @@ namespace HostProduction.Controllers
 	{
 		private readonly ApplicationDbContext context;
 		private readonly IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository;
+		private readonly ILogger<EquipmentPlacementContractsController> logger;
 
-		public EquipmentPlacementContractsController(ApplicationDbContext context, IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository)
+		public EquipmentPlacementContractsController(ApplicationDbContext context, 
+			IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository,
+			ILogger<EquipmentPlacementContractsController> logger)
 		{
 			this.context = context;
 			this.equipmentPlacementContractsRepository = equipmentPlacementContractsRepository;
+			this.logger = logger;
 		}
 
 		// GET: EquipmentPlacementContracts
@@ -52,6 +56,15 @@ namespace HostProduction.Controllers
 			try
 			{
 				await equipmentPlacementContractsRepository.CreateEquipmentPlacementContractAsync(equipmentPlacementContractCreateVM);
+
+				Task.Run(async () =>
+				{
+					await Task.Delay(1000); // Simulate asynchronus operation
+					logger.LogInformation($"{equipmentPlacementContractCreateVM.EquipmentQuantity} elements of Id " +
+						$"{equipmentPlacementContractCreateVM.ProcessEquipmentTypeId} have been added to facility od Id {equipmentPlacementContractCreateVM.ProductionFacilityId}." +
+						$"Reamining area: {equipmentPlacementContractCreateVM.RemainingArea}");
+				});
+
 				return RedirectToAction(nameof(Index));
 			}
 			catch
