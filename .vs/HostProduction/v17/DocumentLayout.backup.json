@@ -3,27 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184620_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250116184620_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HostProduction/True/SqlTable/dbo.ProductionFacilities.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183706_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250116183706_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184436_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250116184436_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\processequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|c:\\users\\jedrulcia\\desktop\\jedrzej\\programowanko\\github\\hostproduction\\data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901F04A6-CF4C-44B1-85E1-A24338C4E4E7}|HostProduction.csproj|solutionrelative:data\\productionfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,54 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250116183837_AddEquipmentPlacementContracts.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs",
-              "RelativeToolTip": "Data\\Migrations\\20250116183837_AddEquipmentPlacementContracts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20250116184620_AddUser.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184620_AddUser.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250116184620_AddUser.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184620_AddUser.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250116184620_AddUser.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:38:37.401Z",
+              "WhenOpened": "2025-01-16T18:46:20.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.ProductionFacilities [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HostProduction/True/SqlTable/dbo.ProductionFacilities.sql",
-              "ToolTip": "dbo.ProductionFacilities [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-16T18:37:45.806Z",
+              "Title": "20250116184436_AddUser.cs",
+              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184436_AddUser.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250116184436_AddUser.cs",
+              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116184436_AddUser.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250116184436_AddUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:44:36.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250116183706_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183706_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20250116183706_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\Migrations\\20250116183706_InitialMigration.cs",
-              "RelativeToolTip": "Data\\Migrations\\20250116183706_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:37:06.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T18:34:14.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -129,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ProductionFacilitySeedConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Configurations\\Entities\\ProductionFacilitySeedConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\Entities\\ProductionFacilitySeedConfiguration.cs",
@@ -141,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ProcessEquipmentTypeSeedConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Configurations\\Entities\\ProcessEquipmentTypeSeedConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\Entities\\ProcessEquipmentTypeSeedConfiguration.cs",
@@ -159,14 +130,14 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T18:14:07.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "EquipmentPlacementContract.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\EquipmentPlacementContract.cs",
               "RelativeDocumentMoniker": "Data\\EquipmentPlacementContract.cs",
@@ -178,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "ProcessEquipmentType.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ProcessEquipmentType.cs",
               "RelativeDocumentMoniker": "Data\\ProcessEquipmentType.cs",
@@ -190,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProductionFacility.cs",
               "DocumentMoniker": "C:\\Users\\Jedrulcia\\Desktop\\Jedrzej\\Programowanko\\github\\HostProduction\\Data\\ProductionFacility.cs",
               "RelativeDocumentMoniker": "Data\\ProductionFacility.cs",
@@ -198,8 +169,7 @@
               "RelativeToolTip": "Data\\ProductionFacility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:07:34.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T18:07:34.977Z"
             }
           ]
         }

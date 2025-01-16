@@ -24,6 +24,7 @@ namespace HostProduction.Data
             builder.ApplyConfiguration(new ProductionFacilitySeedConfiguration());
             builder.ApplyConfiguration(new ProcessEquipmentTypeSeedConfiguration());
 
+            builder.ApplyConfiguration(new UserSeedConfiguration());
 
 			base.OnModelCreating(builder);
 		}
