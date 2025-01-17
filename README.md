@@ -10,7 +10,7 @@ Database structure has been deployed using the Code First approach and Entity Fr
 2. ProcessEquipmentType: Id, Code, Name, Area (content automatically filled).
 ![image](https://github.com/user-attachments/assets/ebffb0d7-92be-4933-a642-ada6e25e7606)
 
-3. EquipmentPlacementContract: Id, ProductionFacilityId, ProcessEquipmentTypeId, EquipmentQuantity (content created manually).
+3. EquipmentPlacementContract: Id, ProductionFacilityId, ProcessEquipmentTypeId, EquipmentQuantity.
 ![image](https://github.com/user-attachments/assets/6167135d-44d2-4cda-951a-8b9aee8ff897)
 
 
