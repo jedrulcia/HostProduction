@@ -10,23 +10,18 @@ using HostProduction.Contracts;
 using HostProduction.Models;
 using HostProduction.Repositories;
 using Microsoft.AspNetCore.Authorization;
+using HostProduction.Web.Configurations.Exceptions;
 
 namespace HostProduction.Controllers
 {
 	[Authorize]
 	public class EquipmentPlacementContractsController : Controller
 	{
-		private readonly ApplicationDbContext context;
 		private readonly IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository;
-		private readonly ILogger<EquipmentPlacementContractsController> logger;
 
-		public EquipmentPlacementContractsController(ApplicationDbContext context, 
-			IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository,
-			ILogger<EquipmentPlacementContractsController> logger)
+		public EquipmentPlacementContractsController(IEquipmentPlacementContractsRepository equipmentPlacementContractsRepository)
 		{
-			this.context = context;
 			this.equipmentPlacementContractsRepository = equipmentPlacementContractsRepository;
-			this.logger = logger;
 		}
 
 		// GET: EquipmentPlacementContracts
@@ -46,25 +41,27 @@ namespace HostProduction.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)
 		{
-			equipmentPlacementContractCreateVM.RemainingArea = await equipmentPlacementContractsRepository
-				.GetRemainingFacilityAreaAsync(equipmentPlacementContractCreateVM);
-
-			if (!TryValidateModel(equipmentPlacementContractCreateVM))
+			if (ModelState.IsValid)
 			{
-				TempData["ErrorMessage"] = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).FirstOrDefault()
-					?? "Error during creation on Equipment Placement Contract. Try again.";
-				return View(await equipmentPlacementContractsRepository.GetEquipmentPlacementContractCreateVMAsync());
+				try
+				{
+					await equipmentPlacementContractsRepository.CreateEquipmentPlacementContractAsync(equipmentPlacementContractCreateVM);
+					return RedirectToAction(nameof(Index));
+				}
+				catch (AreaException)
+				{
+					TempData["ErrorMessage"] = "Not enough area to place chosen equipment in the facility.";
+					return View(await equipmentPlacementContractsRepository.GetEquipmentPlacementContractCreateVMAsync());
+				}
+				catch
+				{
+					TempData["ErrorMessage"] = "Error during creation of Contract. Try again.";
+					return View(await equipmentPlacementContractsRepository.GetEquipmentPlacementContractCreateVMAsync());
+				}
 			}
-			try
-			{
-				await equipmentPlacementContractsRepository.CreateEquipmentPlacementContractAsync(equipmentPlacementContractCreateVM);
-				return RedirectToAction(nameof(Index));
-			}
-			catch
-			{
-				TempData["ErrorMessage"] = "Error during creation on Equipment Placement Contract. Try again.";
-				return View(await equipmentPlacementContractsRepository.GetEquipmentPlacementContractCreateVMAsync());
-			}
+			TempData["ErrorMessage"] = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).FirstOrDefault()
+				?? "Error during creation of Contract. Try again.";
+			return View(await equipmentPlacementContractsRepository.GetEquipmentPlacementContractCreateVMAsync());
 		}
 	}
 }

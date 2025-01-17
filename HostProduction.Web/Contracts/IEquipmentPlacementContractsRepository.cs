@@ -8,6 +8,5 @@ namespace HostProduction.Contracts
 		Task<List<EquipmentPlacementContractVM>> GetEquipmentPlacementContractVMsAsync();
 		Task<EquipmentPlacementContractCreateVM> GetEquipmentPlacementContractCreateVMAsync();
 		Task CreateEquipmentPlacementContractAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM);
-		Task<decimal> GetRemainingFacilityAreaAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM);
 	}
 }

@@ -2,6 +2,7 @@
 using HostProduction.Contracts;
 using HostProduction.Data;
 using HostProduction.Models;
+using HostProduction.Web.Configurations.Exceptions;
 using HostProduction.Web.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -65,10 +66,23 @@ namespace HostProduction.Repositories
 			return equipmentPlacementContractCreateVM;
 		}
 
-		public async Task<decimal> GetRemainingFacilityAreaAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)
+		public async Task CreateEquipmentPlacementContractAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)
+		{
+			var remainingArea = await GetRemainingFacilityAreaAsync(equipmentPlacementContractCreateVM);
+
+			if (remainingArea < 0)
+			{
+				throw new AreaException();
+			}
+
+			await AddAsync(mapper.Map<EquipmentPlacementContract>(equipmentPlacementContractCreateVM));
+			await emailSender.SendEmailAsync(null, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully.");
+		}
+
+		private async Task<decimal> GetRemainingFacilityAreaAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)
 		{
 			List<EquipmentPlacementContractVM> contractVMs = (await GetEquipmentPlacementContractVMsAsync())
-				.Where(x => x.ProductionFacilityVM.Id == equipmentPlacementContractCreateVM.ProductionFacilityId 
+				.Where(x => x.ProductionFacilityVM.Id == equipmentPlacementContractCreateVM.ProductionFacilityId
 				&& x.ProcessEquipmentTypeVM.Id == equipmentPlacementContractCreateVM.ProcessEquipmentTypeId)
 				.ToList();
 
@@ -83,12 +97,6 @@ namespace HostProduction.Repositories
 			facilityVM.RemainingArea -= equipmentVM.Area * equipmentPlacementContractCreateVM.EquipmentQuantity;
 
 			return facilityVM.RemainingArea;
-		}
-
-		public async Task CreateEquipmentPlacementContractAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)
-		{
-			await AddAsync(mapper.Map<EquipmentPlacementContract>(equipmentPlacementContractCreateVM));
-			await emailSender.SendEmailAsync(null, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully.");
 		}
 	}
 }
