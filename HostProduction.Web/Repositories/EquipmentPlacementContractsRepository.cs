@@ -16,17 +16,23 @@ namespace HostProduction.Repositories
 		private readonly IProcessEquipmentTypeRepository processEquipmentTypeRepository;
 		private readonly IProductionFacilityRepository productionFacilityRepository;
 		private readonly IEmailSender emailSender;
+		private readonly UserManager<User> userManager;
+		private readonly IHttpContextAccessor httpContextAccessor;
 
 		public EquipmentPlacementContractsRepository(ApplicationDbContext context,
 			IMapper mapper,
 			IProcessEquipmentTypeRepository processEquipmentTypeRepository, 
 			IProductionFacilityRepository productionFacilityRepository,
-			IEmailSender emailSender) : base(context)
+			IEmailSender emailSender,
+			UserManager<User> userManager,
+			IHttpContextAccessor httpContextAccessor) : base(context)
 		{
 			this.mapper = mapper;
 			this.processEquipmentTypeRepository = processEquipmentTypeRepository;
 			this.productionFacilityRepository = productionFacilityRepository;
 			this.emailSender = emailSender;
+			this.userManager = userManager;
+			this.httpContextAccessor = httpContextAccessor;
 		}
 		public async Task<List<EquipmentPlacementContractVM>> GetEquipmentPlacementContractVMsAsync()
 		{
@@ -76,7 +82,8 @@ namespace HostProduction.Repositories
 			}
 
 			await AddAsync(mapper.Map<EquipmentPlacementContract>(equipmentPlacementContractCreateVM));
-			await emailSender.SendEmailAsync(null, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully.");
+			var user = await userManager.GetUserAsync(httpContextAccessor.HttpContext?.User);
+			await emailSender.SendEmailAsync(user.Email, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully.");
 		}
 
 		private async Task<decimal> GetRemainingFacilityAreaAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)

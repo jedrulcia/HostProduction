@@ -347,5 +347,3 @@ C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProdu
 C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProduction.Test\bin\Debug\net8.0\SendGrid.dll
 C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProduction.Test\bin\Debug\net8.0\StarkbankEcdsa.dll
 C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProduction.Test\bin\Debug\net8.0\libman.json
-C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProduction.Test\bin\Debug\net8.0\appsettings - example.Development.json
-C:\Users\Jedrulcia\Desktop\Jedrzej\Programowanko\github\HostProduction\HostProduction.Test\bin\Debug\net8.0\appsettings - example.json

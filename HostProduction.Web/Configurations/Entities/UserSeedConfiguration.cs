@@ -18,8 +18,6 @@ namespace HostProduction.Configurations.Entities
 					NormalizedUserName = "ADMIN@LOCALHOST.COM",
 					Email = "admin@localhost.com",
 					NormalizedEmail = "ADMIN@LOCALHOST.COM",
-					FirstName = "Admin",
-					LastName = "System",
 					PasswordHash = hasher.HashPassword(null, "Admin!2"),
 					EmailConfirmed = true
 				});

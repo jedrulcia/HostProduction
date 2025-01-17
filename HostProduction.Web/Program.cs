@@ -25,8 +25,7 @@ builder.Services.AddScoped<IProcessEquipmentTypeRepository, ProcessEquipmentType
 
 string sendGridConnectionString = builder.Configuration.GetConnectionString("SendGridConnectionString");
 string sendFromEmailAddress = builder.Configuration.GetValue<string>("SendFromEmail");
-string sendToEmailAddress = builder.Configuration.GetValue<string>("SendToEmail");
-builder.Services.AddTransient<IEmailSender, EmailSender>(provider => new EmailSender(sendGridConnectionString, sendFromEmailAddress, sendToEmailAddress));
+builder.Services.AddTransient<IEmailSender, EmailSender>(provider => new EmailSender(sendGridConnectionString, sendFromEmailAddress));
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
