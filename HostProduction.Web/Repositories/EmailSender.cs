@@ -2,7 +2,7 @@
 using SendGrid;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace HostProduction.Web.Services
+namespace HostProduction.Web.Repositories
 {
 	public class EmailSender : IEmailSender
 	{

@@ -3,7 +3,7 @@ using HostProduction.Contracts;
 using HostProduction.Data;
 using HostProduction.Models;
 using HostProduction.Web.Configurations.Exceptions;
-using HostProduction.Web.Services;
+using HostProduction.Web.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -76,14 +76,12 @@ namespace HostProduction.Repositories
 		{
 			var remainingArea = await GetRemainingFacilityAreaAsync(equipmentPlacementContractCreateVM);
 
-			if (remainingArea < 0)
-			{
-				throw new AreaException();
-			}
+			if (remainingArea < 0) { throw new AreaException();	}
 
 			await AddAsync(mapper.Map<EquipmentPlacementContract>(equipmentPlacementContractCreateVM));
 			var user = await userManager.GetUserAsync(httpContextAccessor.HttpContext?.User);
-			await emailSender.SendEmailAsync(user.Email, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully.");
+			try	{ await emailSender.SendEmailAsync(user.Email, "Succesfull contract creation.", "New Equipment Placement Contract has been created successfully."); }
+			catch { }
 		}
 
 		private async Task<decimal> GetRemainingFacilityAreaAsync(EquipmentPlacementContractCreateVM equipmentPlacementContractCreateVM)

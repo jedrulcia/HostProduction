@@ -2,7 +2,7 @@ using HostProduction.Configurations;
 using HostProduction.Contracts;
 using HostProduction.Data;
 using HostProduction.Repositories;
-using HostProduction.Web.Services;
+using HostProduction.Web.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -20,13 +20,13 @@ builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfi
 	.AddEntityFrameworkStores<ApplicationDbContext>();
 
 // Dependency Injection
-builder.Services.AddSingleton<IEquipmentPlacementContractsRepository, EquipmentPlacementContractsRepository>();
-builder.Services.AddSingleton<IProductionFacilityRepository, ProductionFacilityRepository>();
-builder.Services.AddSingleton<IProcessEquipmentTypeRepository, ProcessEquipmentTypeRepository>();
+builder.Services.AddScoped<IEquipmentPlacementContractsRepository, EquipmentPlacementContractsRepository>();
+builder.Services.AddScoped<IProductionFacilityRepository, ProductionFacilityRepository>();
+builder.Services.AddScoped<IProcessEquipmentTypeRepository, ProcessEquipmentTypeRepository>();
 
 // Email Sender configuration
-string sendGridConnectionString = builder.Configuration.GetConnectionString("SendGridConnectionString") ?? throw new InvalidOperationException("Connection string 'SendGridConnectionString' not found.");
-string sendFromEmailAddress = builder.Configuration.GetValue<string>("SendFromEmail") ?? throw new InvalidOperationException("Value 'SendFromEmail' not found.");
+string sendGridConnectionString = builder.Configuration.GetConnectionString("SendGridConnectionString");
+string sendFromEmailAddress = builder.Configuration.GetValue<string>("SendFromEmail");
 builder.Services.AddTransient<IEmailSender, EmailSender>(provider => new EmailSender(sendGridConnectionString, sendFromEmailAddress));
 
 // Automapper
