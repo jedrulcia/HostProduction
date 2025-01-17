@@ -35,7 +35,7 @@ Unit tests for the implemented controller have been implemented.
 
 
 ## Async Background Processor (EmailSender):
-EmailSender service has been configured as async background processor via SendGrid.
+EmailSender service has been configured as async background processor via SendGrid (Application can run without configuring SendGrid).
 ![image](https://github.com/user-attachments/assets/e7e98fd2-a4d8-400e-be1e-74148e9560b1)
 
 
