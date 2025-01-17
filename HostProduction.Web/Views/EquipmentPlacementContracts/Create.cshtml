@@ -5,6 +5,8 @@
     var errorMessage = TempData["ErrorMessage"] as string;
 }
 
+<h4>Create Equipment Placement Contract</h4>
+
 @if (!string.IsNullOrEmpty(errorMessage))
 {
     <div class="alert alert-danger">
@@ -12,9 +14,6 @@
     </div>
 }
 
-<h1>Create</h1>
-
-<h4>EquipmentPlacementContract</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -26,26 +25,26 @@
                 </select>
                 <span asp-validation-for="ProductionFacilityId" class="text-danger"></span>
             </div>		
+            <br />
             <div class="form-group">
                 <strong><label asp-for="ProcessEquipmentTypeId" class="control-label"></label></strong>
                 <select asp-for="ProcessEquipmentTypeId" asp-items="@Model.AvailableProcessEquipmentTypes" class="form-select">
                 </select>
                 <span asp-validation-for="ProcessEquipmentTypeId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
-                <label asp-for="EquipmentQuantity" class="control-label"></label>
+                <strong><label asp-for="EquipmentQuantity" class="control-label"></label></strong>
                 <input asp-for="EquipmentQuantity" class="form-control" />
                 <span asp-validation-for="EquipmentQuantity" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

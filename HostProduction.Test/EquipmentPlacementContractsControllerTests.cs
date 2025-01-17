@@ -11,7 +11,7 @@ using Xunit;
 public class EquipmentPlacementContractsControllerTests
 {
 	[Fact]
-	public async Task Index_ReturnsViewWithModel()
+	public async Task Index_GET_ReturnsViewWithModel()
 	{
 		var repositoryStub = new EquipmentPlacementContractsRepositoryStub
 		{

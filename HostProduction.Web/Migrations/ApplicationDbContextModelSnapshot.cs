@@ -4,19 +4,16 @@ using HostProduction.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace HostProduction.Data.Migrations
+namespace HostProduction.Web.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250117184630_RemovedFirstLastName")]
-    partial class RemovedFirstLastName
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -314,15 +311,15 @@ namespace HostProduction.Data.Migrations
                         {
                             Id = "654bced5-375b-5291-0a59-1dc59923d1b0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e8fca03e-0c2e-4f89-a72b-c32e94c34323",
+                            ConcurrencyStamp = "56a686f5-3d00-4d4d-83d7-9b1689c1c85b",
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOMKx5X1fFqxxBx1gP4y/alRKwV9/YUMsbZIPdiyJwLyD1zxzoZ09P9X9DL7cPbT2w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJLRuaiFvQGD5WOBmRlIRDtC7pK5Yc1L3dY3Z1Q34ecPFMkCT06QedvzYprMfdo28g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4fb6df35-ea4a-42fe-867b-a5132c9651e8",
+                            SecurityStamp = "0385fa8c-8313-4410-927b-e0cf36cfc5b9",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         });

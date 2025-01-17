@@ -4,23 +4,21 @@
 	ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 <p>
-	<a asp-action="Create">Create New</a>
+	<h2>Equipment Placement Contracts <a asp-action="Create" class="btn btn-primary">Create New</a></h2>
 </p>
 
 <table class="table">
 	<thead>
 		<tr>
 			<th>
-				Production Facility
+				@Html.DisplayNameFor(modelItem => modelItem.ProductionFacilityVM)
 			</th>
 			<th>
-				Process Equipment Type
+				@Html.DisplayNameFor(modelItem => modelItem.ProcessEquipmentTypeVM)
 			</th>
 			<th>
-				Equipment Quantity
+				@Html.DisplayNameFor(modelItem => modelItem.EquipmentQuantity)
 			</th>
 		</tr>
 	</thead>

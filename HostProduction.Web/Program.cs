@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Database configuration
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -19,21 +19,23 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
 	.AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddScoped<IEquipmentPlacementContractsRepository, EquipmentPlacementContractsRepository>();
-builder.Services.AddScoped<IProductionFacilityRepository, ProductionFacilityRepository>();
-builder.Services.AddScoped<IProcessEquipmentTypeRepository, ProcessEquipmentTypeRepository>();
+// Dependency Injection
+builder.Services.AddSingleton<IEquipmentPlacementContractsRepository, EquipmentPlacementContractsRepository>();
+builder.Services.AddSingleton<IProductionFacilityRepository, ProductionFacilityRepository>();
+builder.Services.AddSingleton<IProcessEquipmentTypeRepository, ProcessEquipmentTypeRepository>();
 
-string sendGridConnectionString = builder.Configuration.GetConnectionString("SendGridConnectionString");
-string sendFromEmailAddress = builder.Configuration.GetValue<string>("SendFromEmail");
+// Email Sender configuration
+string sendGridConnectionString = builder.Configuration.GetConnectionString("SendGridConnectionString") ?? throw new InvalidOperationException("Connection string 'SendGridConnectionString' not found.");
+string sendFromEmailAddress = builder.Configuration.GetValue<string>("SendFromEmail") ?? throw new InvalidOperationException("Value 'SendFromEmail' not found.");
 builder.Services.AddTransient<IEmailSender, EmailSender>(provider => new EmailSender(sendGridConnectionString, sendFromEmailAddress));
 
+// Automapper
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
@@ -41,7 +43,6 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

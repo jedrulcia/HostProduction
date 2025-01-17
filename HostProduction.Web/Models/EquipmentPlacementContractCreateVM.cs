@@ -15,7 +15,7 @@ namespace HostProduction.Models
 		public SelectList? AvailableProductionFacilities { get; set; }
 
 		[Required]
-		[Display(Name = "Process Equipment Code")]
+		[Display(Name = "Process Equipment Type Code")]
 		public int ProcessEquipmentTypeId { get; set; }
 		public SelectList? AvailableProcessEquipmentTypes { get; set; }
 
