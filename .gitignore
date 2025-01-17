@@ -1,2 +1,4 @@
 HostProduction.Web/.vs/
 HostProduction.Web/appsettings.json
+HostProduction.Web/bin/Debug/net8.0/appsettings.json
+HostProduction.Test/bin/Debug/net8.0/appsettings.json
